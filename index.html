@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto 10 - Tabs</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+    <h1>Componente de pestañas</h1>
+
+    <div class="contenedor">
+
+        <div class="pestanas">
+            <button class="pestana activa" data-tab="inicio">Inicio</button>
+            <button class="pestana" data-tab="servicios">Servicios</button>
+            <button class="pestana" data-tab="productos">Productos</button>
+            <button class="pestana" data-tab="contacto">Contacto</button>
+        </div>
+
+        <div class="contenido">
+            <div class="panel activo" id="inicio">
+                <h2>Inicio</h2>
+                <p>Bienvenido a nuestra página web.</p>
+            </div>
+
+            <div class="panel" id="servicios">
+                <h2>Servicios</h2>
+                <p>Conoce los servicios que ofrecemos.</p>
+            </div>
+
+            <div class="panel" id="productos">
+                <h2>Productos</h2>
+                <p>Explora nuestros productos disponibles.</p>
+            </div>
+
+            <div class="panel" id="contacto">
+                <h2>Contacto</h2>
+                <p>Comunícate con nosotros.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
